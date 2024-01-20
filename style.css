@@ -1,0 +1,53 @@
+.container {
+   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBnbpGl4gMG5SCDMYpBd1GIS55FECuDwWU6zMXxioX5Jl7LjQ&s);  */
+    background-color: rgba(25, 175, 245, 0.267);
+     height: 100vh;
+     width: 100%;
+     margin: 0 auto;
+     padding: 10px;
+     background-repeat: no-repeat;
+   }
+   .container.background-image{
+     width: 100%;
+   }
+   
+   h1 {
+     font-size: 40px;
+     text-align: center;
+     font-family: ' Arial, sans-serif;
+   }
+   
+   input[type="text"] {
+     width: 70%;
+     padding: 10px;
+     margin-bottom: 10px;
+     margin-left: 8%;
+   }
+ 
+   
+   button {
+     padding: 10px 20px;
+     background-color: #0d5580;
+     color: white;
+     border: none;
+     cursor: pointer;
+   }
+   
+   ul {
+     list-style-type: none;
+     padding: 0;
+   }
+   
+   li {
+    list-style-type: none;
+     margin-left: 100px;
+     margin-top: 20px;
+   }
+   
+   .deleteButton {
+     background-color: #e95348;
+     color: white;
+     border: none;
+     cursor: pointer;
+     margin-left: 20%;
+   }
